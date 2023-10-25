@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Sign-up</title>
     <link href="style.css" rel="stylesheet">
+    <script src="script.js" rel="script" defer></script>
 </head>
 <body>
 <div class="main">
@@ -13,18 +14,61 @@
             <h1>ODIN</h1>
         </div>
         <p class="cite">
-            Photo by Halie West on Unsplash
+            Photo by <a class="link" href="https://unsplash.com/@haliewestphoto"> Halie West </a> on <a
+                href="https://unsplash.com/" class="link">
+            Unsplash</a>
         </p>
     </div>
 
     <div class="right">
-        <h2>
+        <h2 class="quote">
             lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, adipisci aliquam asperiores atque
+            <br>
+            <br>
+            you know you want to
         </h2>
         <form action="" method="post">
-            <h2>
-                Let's do this!
-            </h2>
+            <fieldset>
+                <h2> Let's do this!</h2>
+                <div>
+                    <div class="hor">
+                        <div class="ver">
+                            <label for="fname">First Name</label>
+                            <input id="fname" name="first">
+                        </div>
+                        <div class="ver">
+                            <label for="lname">Last Name</label>
+                            <input id="lname" name="last">
+                        </div>
+                    </div>
+                    <div class="hor">
+                        <div class="ver">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type='email'>
+                        </div>
+                        <div class="ver">
+                            <label for="phone">Phone Number</label>
+                            <input id="phone" name="phone" type="tel">
+                        </div>
+                    </div>
+                    <div class="hor">
+                        <div class="ver">
+                            <label for="password">Password</label>
+                            <input id="password" name="password" type='password'>
+                            <div class="errorT"> *Passwords do not match</div>
+                        </div>
+                        <div class="ver">
+                            <label for="cpassword">Confirm Password</label>
+                            <input id="cpassword" type="password">
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </fieldset>
+            <button type="submit">Create Account</button>
+            <div class="already">Already have an account? <a href="">Sign in instead</a></div>
         </form>
     </div>
 </div>

@@ -27,7 +27,10 @@
 }
 .right{
     flex: 2;
+    height: 100vh;
 }
+
+
 
 .imgbox{
     display: flex;
@@ -52,4 +55,82 @@ body{
     font-family: 'MyFont', serif;
     color: beige;
     font-size: 100px;
+}
+
+.quote{
+    margin-left: 50px;
+}
+
+h2{
+    margin-left: 20px;
+}
+
+.error{
+    border: 2px solid red;
+}
+
+
+.hor{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.ver{
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset{
+    border: none;
+    background-color: white;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+
+.errorT{
+    color: red;
+    font-size: 12px;
+}
+
+input{
+    border-style: solid;
+    border-radius: 3px;
+}
+
+body{
+    font-family: "Papyrus", serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+button{
+    padding: 12px 35px;
+    margin-left: 50px;
+    background-color: #596D48;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.already{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+a{
+    color: #596D48;
+    text-decoration: none;
+}
+
+.link{
+    text-decoration: underline;
+    color: white;
 }
